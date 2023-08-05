@@ -1,0 +1,141 @@
+#root {
+  
+  margin: 0;
+  text-align: center;
+  
+}
+
+.projects{
+  text-decoration: none;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.695);
+  padding: 10px 40px;
+  color: rgba(0, 0, 0, 0.745);
+  -webkit-transition: background-color;
+  transition: background-color;
+  border-radius: 0 0 100px 100px;
+}
+
+.projects:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.homepage__footer {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 0%;
+    
+  }
+
+.homepage__container{
+  padding: 30px;
+  min-height: 70vh;
+  display: grid;
+  place-content: center;
+}
+
+.homepage__logo{
+  max-width: 500px;
+  padding-bottom: 30px;
+}
+
+.homepage__welcome{
+  color: #fd1a37;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.pokedexpage__header{
+  width: 100%;
+}
+
+.pokedexpage__welcomePrincipal{
+  padding: 0px 40px;
+}
+
+.pokedexpage__welcome{
+  color:#fd1a37;
+  font-weight: 600;
+}
+
+.pokedexpage__container{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.pokedexpagecard__container{
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.pokecard__container{
+  max-width: 350px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.pokeidpage__container{
+  padding: 60px;
+  display: grid;
+  place-content: center;
+  
+
+  
+}
+
+.pokeidpage__card{
+  width: 900px;
+  border: #ffffff solid 10px;
+  border-radius: 1.5%;
+  background-color: white;
+  
+}
+.pokeidpage__photo{
+  margin-left: 25%;
+  max-width: 500px;
+  padding: 0px 50px 50px 50px;
+  
+
+}
+
+.pokeidpage__h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pokeidpage__type,
+.pokeidpage__abilities{
+  width: 200px;
+  border: #eeeeee solid ;
+  
+}
+
+.pokeidpage__infos{
+  display: grid;
+  justify-content: center;
+
+}
+
+
+.pokeidpage__info {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  justify-items: center;
+  gap: 1.5em 0.2em;
+  
+}
+
+.pokeidpage__infocard{
+  padding: 0px 30px;
+}
+
+
